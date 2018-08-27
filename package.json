@@ -1,0 +1,23 @@
+{
+  "name": "nw-ci-playground",
+  "version": "1.0.0",
+  "description": "Ci with nighwatch",
+  "main": "index.js",
+  "scripts": {
+    "test": "node nightwatch google.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeevbarde/nw-ci-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajeevbarde/nw-ci-playground/issues"
+  },
+  "homepage": "https://github.com/rajeevbarde/nw-ci-playground#readme",
+  "dependencies": {
+    "nightwatch": "^0.9.21"
+  }
+}
