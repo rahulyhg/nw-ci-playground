@@ -26,9 +26,9 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
       
-      - run: ls
-      - run: npm install
-      - run: ls node_modules
+      - run:
+          name: Installing nightwatch & Web drivers
+          command: npm install
 
       - save_cache:
           paths:
@@ -36,6 +36,8 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
         
       # run tests!      
-      - run: npm test
+      - run:
+        name: Run integration test
+        command: npm test
 
 
