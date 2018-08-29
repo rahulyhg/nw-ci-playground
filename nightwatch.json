@@ -16,7 +16,7 @@
         "webdriver": {
           "port": 9515,
           "start_process" : true,
-          "server_path": "./node_modules/chromedriver/lib/chromedriver/chromedriver.exe"
+          "server_path": "node_modules/chromedriver/lib/chromedriver/chromedriver.exe"
         },
         "desiredCapabilities" : {
           "browserName" : "chrome",
