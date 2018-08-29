@@ -37,7 +37,7 @@ jobs:
         
       # run tests!      
       - run:
-        name: Run integration test
-        command: npm test
+          name: Run integration test
+          command: npm test
 
 
