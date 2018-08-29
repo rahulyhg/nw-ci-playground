@@ -3,13 +3,13 @@ var chromedriver = require('chromedriver');
 module.exports = {
 
   before : function(done) {
-    chromedriver.start();
+  //  chromedriver.start();
 
     done();
   },
 
   after : function(done) {
-    chromedriver.stop();
+   // chromedriver.stop();
 
 
     done();
