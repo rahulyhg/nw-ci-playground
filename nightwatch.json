@@ -1,0 +1,65 @@
+{
+    "src_folders" : [""],
+    "output_folder" : "Result",
+    "custom_commands_path" : "",
+    "custom_assertions_path" : "",
+    "page_objects_path" : "",
+    "globals_path" : "global.js",
+
+    "test_workers": {
+      "enabled": true,
+      "workers": "auto"
+    } ,
+      
+    "test_settings" : {
+      "default" : {
+        "webdriver": {
+          "port": 9515,
+          "start_process" : true,
+          "server_path": "./node_modules/chromedriver/lib/chromedriver/chromedriver.exe"
+        },
+        "desiredCapabilities" : {
+          "browserName" : "chrome",
+          "chromeOptions" : {},
+          "loggingPrefs" :{
+            "browser" : "ALL"
+          }
+        },
+        "end_session_on_fail" : false,
+        "skip_testcases_on_fail" : false
+      },
+      
+      "firefox" : {
+        "webdriver": {
+          "start_process" : true,
+          "server_path": "./node_modules/geckodriver/geckodriver.exe",
+          "port": 4444,
+          "cli_args": [
+            "--log", "debug"
+          ]
+        },
+        "desiredCapabilities" : {
+          "browserName" : "firefox",
+          "acceptSslCerts": true
+        }
+      },
+
+      "chrome1" : {
+        "webdriver": {
+          "port": 9515,
+          "start_process" : true,
+          "server_path": "./node_modules/chromedriver/lib/chromedriver/chromedriver.exe"
+        },
+        "desiredCapabilities" : {
+          "browserName" : "chrome",
+          "chromeOptions" : {},
+          "loggingPrefs" :{
+            "browser" : "ALL"
+          }
+        },
+        "end_session_on_fail" : false,
+        "skip_testcases_on_fail" : false
+      }
+      
+    }
+}
