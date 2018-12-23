@@ -11,8 +11,7 @@ class Home
     
         this.browser
         .url("https://www.shaadi.com")
-        .waitForElementVisible("body")
-        .waitForElementVisible("//body")
+        .getLocationInView(registration_selector)
         .waitForElementVisible(registration_selector);
     }
 
