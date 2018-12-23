@@ -28,7 +28,7 @@ jobs:
       
       - run:
           name: Installing nightwatch & Web drivers
-          command: npm install
+          command: npm install && mkdir -p Result
 
       - save_cache:
           paths:
