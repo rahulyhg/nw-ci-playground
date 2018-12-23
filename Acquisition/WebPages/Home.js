@@ -11,7 +11,7 @@ class Home
     
         this.browser
         .url("https://www.shaadi.com")
-        .waitForElementVisible("div[id='s2id_gender']")
+        .pause(7000)
         .waitForElementVisible(registration_selector);
     }
 
