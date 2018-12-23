@@ -38,6 +38,6 @@ jobs:
       # run tests!      
       - run:
           name: Run integration test
-          command: ls -l
+          command: node nightwatch.js google.js
 
 
