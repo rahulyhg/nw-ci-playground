@@ -10,9 +10,9 @@ class Home
         let registration_selector = '//a[@id="sign_up_btn"]';
     
         this.browser
-        .url('http://www.google.com')
+        .url("https://www.shaadi.com")
       .waitForElementVisible('//body', 9000)
-      .assert.title('Google')
+      .assert.title('The No.1 Matchmaking, Matrimony &amp; Matrimonial Site.')
         .waitForElementVisible(registration_selector);
     }
 
