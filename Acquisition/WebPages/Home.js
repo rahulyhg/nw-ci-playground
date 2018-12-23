@@ -10,8 +10,9 @@ class Home
         let registration_selector = '//a[@id="sign_up_btn"]';
     
         this.browser
-        .url("https://www.shaadi.com")
-        .pause(7000)
+        .url('http://www.google.com')
+      .waitForElementVisible('//body', 9000)
+      .assert.title('Google')
         .waitForElementVisible(registration_selector);
     }
 
