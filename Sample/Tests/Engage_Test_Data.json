@@ -1,0 +1,14 @@
+{
+    "login_credentials" :
+    {
+        "username" :"snehak@bankas.in",
+        "password" : "test"
+    },
+
+    "dropdown" :
+    {
+        "marital" : ["Divorced","Widowed"]
+    },
+    
+    "children_radio_item" :["Doesn't Matter","No","Ok, if not staying together"]
+}

@@ -1,0 +1,45 @@
+{
+    "home_page" : 
+    {
+    "site_url" : "https://www.shaadi.com"
+    },
+
+    "login_credentials" :
+    {
+        "username" :"riya1@bankas.in",
+        "password" : "test"
+    },
+
+    "empty_error_message_email_pass_profile" :
+    {
+        "email_error" :"Please specify Email Id",
+        "password_error" : "Please enter 4 to 20 characters password without any spaces",
+        "postedBy_error" : "Please specify whose profile is being created"
+    },
+
+    "existing_email_error" :
+    {
+        "email" : "riya1@bankas.in",
+        "error" : "Already registered email, try another"
+    },
+
+    "invalid_email_error" :
+    {
+        "emails" : ["plainaddress","#@%^%#$@#$@#.com","@domain.com","Joe Smith <email@domain.com>","email.domain.com","email@domain@domain.com",".email@domain.com","email.@domain.com","email..email@domain.com","あいうえお@domain.com","email@domain.com (Joe Smith)","email@domain","email@-domain.com","email@domain.web","email@111.222.333.44444","email@domain..com","test@shaadi.com"],
+        "error" : "Please enter correct Email"
+    },
+
+    "valid_email" :
+    {
+        "emails" : ["email@domain.com","firstname.lastname@domain.com","email@subdomain.domain.com","firstname+lastname@domain.com","email@123.123.123.123","email@[123.123.123.123]","'email'@domain.com","1234567890@domain.com","email@domain-one.com","_______@domain.com","email@domain.name","email@domain.co.jp","firstname-lastname@domain.com"],
+        "error" : ""
+    },
+
+    "password_error" :
+    {
+        "spaces_password" : "abcd _  def123",
+        "less4_password" : "1a!",
+        "same_email_pass" : "abc@abc221.com",
+        "error" : "Please enter 4 to 20 characters password without any spaces"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "CreditCard_Error" :
+    {
+        "CC_Decline_Error": "Bank Declined transaction. Try another card.",
+        "CC_Num_Error": "Please enter a valid Card number.",
+        "CC_Date_Error": "Please select valid expiry date.",
+        "CC_Cvv_Error": "Please enter a valid CVV number.",
+        "CC_Name_Error": "Please enter the name of card holder."
+    },
+
+    "CreditCard_Details" :
+    {
+        "Visa_CC_Num": "4862698906278908",
+        "Decline_Visa_CC_Num": "4111111111111111",
+        "Visa_CC_Month": "11",
+        "Visa_CC_Year": "2024",
+        "Visa_CC_Cvv": "560",
+        "Visa_CC_Name": "test",
+
+        "Invalid_CC_Num": "437748660509",
+        "Invalid_CC_Month": "03",
+        "Invalid_CC_Year": "2018",
+        "Invalid_CC_CVV": "56"
+    },
+
+    "DebitCard_Details" :
+    {
+        "Visa_CC_Num": "4862698906278908",
+        "Decline_Visa_CC_Num": "4444333322221111",
+        "Maestro_card" : "6759649826438453",
+        "Rupay" : "6078230123456789",
+        "Visa_CC_Month": "11",
+        "Visa_CC_Year": "2024",
+        "Visa_CC_Cvv": "560",
+        "Visa_CC_Name": "test",
+
+        "Invalid_CC_Num": "437748660509",
+        "Invalid_CC_Month": "03",
+        "Invalid_CC_Year": "2018",
+        "Invalid_CC_CVV": "56"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "home_page" : 
+    {
+    "site_url" : "https://www.shaadi.com"
+    },
+
+    "login_credentials" :
+    {
+        "username" :"riya1@bankas.in",
+        "password" : "test"
+    },
+
+    "reg_1_1_error" :
+    {
+        "email_error" :"1Please specify Email Id",
+        "password_error" : "Please enter 4 to 20 characters password without any spaces",
+        "postedBy_error" : "Please specify whose profile is being created"
+    }
+}

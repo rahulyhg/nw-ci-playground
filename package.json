@@ -1,20 +1,30 @@
 {
-  "name": "nw-starter",
-  "version": "1.0.0",
+  "name": "Apollo",
+  "version": "0.3.0",
   "description": "",
-  "main": "global.js",
-  "directories": {
-    "test": ""
-  },
+  "main": "index.js",
   "scripts": {
-    "test": "node nightwatch.js google.js"
+    "sample-acquisition": "node nightwatch Sample/Tests/test_sample_acq.js",
+    "sample-engagement": "node nightwatch Sample/Tests/test_sample_engag.js",
+    "sample-monetization": "node nightwatch Sample/Tests/test_sample_moni.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Shaadi QA (Rajeev Barde)",
   "license": "ISC",
   "dependencies": {
+    "ansi-regex": "^3.0.0",
     "chromedriver": "^2.41.0",
-    "geckodriver": "^1.12.1",
-    "nightwatch": "^1.0.6"
+    "del": "^3.0.0",
+    "filehound": "^1.16.4",
+    "geckodriver": "^1.12.2",
+    "iedriver": "^3.9.2",
+    "nightwatch": "^1.0.11",
+    "nodemailer": "^4.6.8",
+    "path": "^0.12.7",
+    "pretty-js": "^0.2.0",
+    "selenium-server": "^3.14.0",
+    "xlsx": "^0.13.5",
+    "xmldoc": "^1.1.2",
+    "yargs": "^12.0.5"
   }
 }

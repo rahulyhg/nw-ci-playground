@@ -1,0 +1,40 @@
+{
+    "looking_for" : "Bride",
+    "age" : ["32","37"],
+    "height" : ["5' 3'' - 160cm","5' 10'' - 177cm"],
+    "has_children" : "no",
+    "is_Manglik" : "No Mangliks",
+    "life_style" :
+    {
+        "diet" : "Veg",
+        "smoke" : "Don't include profiles who smoke",
+        "drink" : "Never Drinks",
+        "body_type" :"HEavy",
+        "skin_tone" : "FaiR"
+    },
+
+    "keyword_search" : "Rahul",
+    "photo_setting" : "Visible to all",
+    "chat_status" : "Only Profiles available for Chat",
+    "created_by" : "Sibling / Friend / Others",
+    "has_horoscope" : "Yes",
+    "do_not_show" : "Profiles that I have Filtered me out",
+    "dropdown" :
+    {
+        "special_case" : ["Physically%20challenged"],
+        "marital" : ["Divorced","Widowed"],
+        "religion" : ["Jain","Hindu"],
+        "mother_tongue" : ["Hindi","Marathi"],
+        "community" : ["Hindu%3AAgarwal","Hindu%3ABahi","Hindu%3ABanik"],
+        "country_live" : ["India"],
+        "state" : ["India%3ABihar","India%3AGoa"],
+        "city" : ["India%3ABihar%3AGaya","India%3AGoa%3APanaji","India%3ABihar%3APatna"],
+        "residency" : ["Citizen%7CPermanent%20Resident"],
+        "country_grew" : ["Canada"],
+        "education" : ["Masters"],
+        "education_area" : ["Arts","Commerce"],
+        "working" : ["Business%20/%20Self%20Employed"],
+        "profession" : ["Legal","Others"]
+    }
+}
+

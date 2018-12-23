@@ -1,0 +1,19 @@
+{
+    "PremiumPlans" :
+    {
+        "chat_Feature": "Send unlimited Messages",
+        
+        "highlight_Feature": "Get highlighted to your Matches",
+        "top_Feature": "Make Contact details visible to all",
+
+        "view75_Feature": "View 75 Contact Numbers",
+        "view150_Feature": "View 150 Contact Numbers",
+        "view300_Feature": "View 300 Contact Numbers",
+        "view600_Feature": "View 600 Contact Numbers",
+
+        "advisor_Feature": "Dedicated Relationship Advisor",
+        "meeting_Feature": "Introductions & Meetings",
+        "matches_Feature": "Handpicked Matches",
+        "benefits_Feature": "All Premium Benefits"
+    }
+}

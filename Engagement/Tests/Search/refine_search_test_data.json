@@ -1,0 +1,23 @@
+{
+    "recently_viewed" : "Unviewed Matches",
+    "matches" :  "All",
+    "photo_settings" : ["Visible to all","Protected Photo"],
+    "recently_joined" : "Within a week",
+    "active_members" :  "Within a week",
+    "annual_income" : ["INR 2 Lakh to 4 Lakh","All"],
+    "marital_status" : ["All","Never Married", "Divorced"],
+    "religion" : ["All","Marathi","Hindu"],
+    "community" : ["All","Hindu-Maratha", "Hindu-Kunbi"],
+    "mother_tongue" : ["All","Marathi"],
+    "manglik" : ["All","Yes","No"],
+    "country_living" : ["All", "India"],
+    "state_living" : ["All","Maharashtra","Delhi-NCR"],
+    "country_grew" : ["All", "India"],
+    "education" : ["All","Masters - Management","Bachelors - Engineering/ Technology"],
+    "working_with" : ["All","Private Company","Business / Self Employed"],
+    "profession_area" : ["All","Accounting, Banking & Finance","Corporate Professionals"],
+    "profile_created_by" : ["All","Self","Sibling"],
+    "smoking" : "Non Smokers",
+    "drinking" : ["All","Drinks Occasionally"],
+    "eating_habits" : ["All","Non-Veg"]
+}

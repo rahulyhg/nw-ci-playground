@@ -1,0 +1,13 @@
+{
+    "login_credentials" :
+    {
+        "username" :"riya1@bankas.in",
+        "password" : "test"
+    },
+    "plan_type" : "diamond",
+    
+    "paydoor_city_error" : {
+        "address1" : "B, Ground Floor, Film Centre Building, 68 Tardeo Rd, Tardeo, Near AC Market, Mumbai, Maharashtra 400034",
+        "city_error" : "Please select valid City."
+    }
+}
