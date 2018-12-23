@@ -38,6 +38,7 @@ jobs:
       # run tests!      
       - run:
           name: Run integration test
-          command: npm run-script sample-acquisition
+          #command: npm run-script sample-acquisition
+          command: cd node_modules && ls -l
 
 
